@@ -1,15 +1,14 @@
 const axios = require('axios');
-const { PORT } = process.env;
 
-const port = PORT || 4000;
 
-exports.homePage = (req, res) => {
-    // Make get request to home page /
+const port = process.env.PORT || 4000;
+
+exports.home = (req, res) => {
     axios.get(`http://localhost:${port}/`)
     .then((response) => {
-        res.render('index', {resume: response.data});
+        res.render('contact')
     })
-    .catch(error => {
-        res.send(error);
+    .catch (error => {
+        res.send(error)
     })
 }
