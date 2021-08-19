@@ -1,0 +1,29 @@
+body{
+  background:#275070;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.container{
+  background-color: #e9f5ff;
+  padding: 80px;
+}
+
+.img {
+  border-bottom: #275070 solid;
+  padding-bottom: 16px;
+}
+
+.info {
+  border-bottom: #515152 solid;
+  padding: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: li;
+}
+
+ul{
+  list-style: none;
+}
