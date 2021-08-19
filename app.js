@@ -4,6 +4,7 @@ const exphbs = require('express-handlebars');
 const path = require('path')
 require('dotenv').config();
 const connectionDB = require('./src/database/setup');
+const controller = require('./src/controllers/msgController');
 
 
 const app = express();
@@ -26,6 +27,9 @@ app.use(bodyParser.json())
 app.get('/', (req, res) => {
     res.render('index')
 });
+
+app.post('/send', controller.create)
+
 
 app.listen(port, () => {
     console.log(`Server started at http://localhost:${port}`);
