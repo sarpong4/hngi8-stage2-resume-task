@@ -1,29 +1,74 @@
 body{
-  background:#275070;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-.container{
-  background-color: #e9f5ff;
-  padding: 80px;
+  background-color: #010710;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .img {
-  border-bottom: #275070 solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.name {
+  color: rgb(216, 227, 236);
+}
+
+.img-me {
+  border-radius: 40%;
+  padding-right: 16px;
   padding-bottom: 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
+.img {
+  padding-bottom: 16px;
+}
+
+h2 {
+  color: #0d6efd;
+}
+
+.link {
+  color: azure;
+}
+
 .info {
-  border-bottom: #515152 solid;
   padding: 16px;
+  padding-left: 9%;
+  padding-right: 9%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: li;
 }
 
 ul{
   list-style: none;
+}
+
+.about {
+  color: rgb(216, 227, 236);;
+}
+
+.education, .skills {
+  background-color: #32425A;
+  color: azure;
+}
+
+.experience{
+  background-color: #38395F;
+  color: azure;
+}
+
+.dev {
+  background-color: #193C42;
+  color: azure;
+}
+
+.contact {
+  background-color: #2C4E54;
+  color: azure;
 }
