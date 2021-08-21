@@ -8,29 +8,38 @@
   <link rel="icon" href="../../public/images/HNG.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="../../public/css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="jumbotron jumbotron-fluid">
-    <div class="container pt-3">
+    <div class="container-fluid pt-3">
       <div class="img">
         <a href="https://internship.zuri.team">
-          <img src="../../public/images/HNG.png" class="img-fluid mx-auto d-block" alt="hngi logo">
+          <img src="../../public/images/HNG.png" class="img" alt="hngi logo">
         </a>
       </div>
-      <div class="jumbotron text-center pt-3">
-        <h1 class="display-2"><span>Onesimus</span> Sarpong Wiafe</h1>
+      <div class="name jumbotron text-center pt-3">
+        <h1 class="display-2"><img src="../../public/images/sarpong.jpg" class="img-me" alt="me"><span>Onesimus</span> Sarpong Wiafe</h1>
         <p>
           sarpnissi4@gmail.com | oswiafe002@stug.edu.gh | +233 501225496 | +233 596616122 | Accra, Ghana
         </p>
-        <p class="text-decoration-none">
-          <a class="text-decoration-none" href="https://github.com/sarpong4">github.com/sarpong4</a> |
-          <a class="text-decoration-none" href="https://www.linkedin.com/in/onesimus-sarpong-wiafe-1ba749134/">linkedin.com/in/onesimus-sarpong-wiafe-1ba749134/</a>
-        </p>
+        <div  class="row">
+          <p class=" git text-decoration-none">
+            <a class="text-decoration-none fa fa-github" href="https://github.com/sarpong4"></a>&nbsp;
+            <a class="text-decoration-none fa fa-linkedin" href="https://www.linkedin.com/in/onesimus-sarpong-wiafe-1ba749134/"></a>&nbsp;
+            <a class="text-decoration-none fa fa-twitter" href="https://twitter.com/Onesimus_Wiafe"></a>
+          </p>
+        </div>
       </div>
       <div class="jumbotron lead">
+        <div class=" info about">
+          <h2 class="display-6">About Me</h2>
+          <p>An excellent team worker keen on learning and developing new skills and experience, 
+            with a focus on growing my interpersonal skills. Passionate about Software Development and contributing to
+            dynamic approaches in problem solving. </p>
+         </div>
         <div class=" info education">
-          <h2 class="text-dark display-6">Education</h2>
+          <h2 class="display-6">Education</h2>
           <ul>
             <li><h3>University of Ghana<span>, Legon, Ghana</span></h3>
             <p>BSc. Computer Science, August 2018 - November 2022</p>
@@ -42,7 +51,7 @@
           </ul>
         </div>
         <div class=" info skills">
-          <h2 class="text-dark display-6">Skills</h2>
+          <h2 class="display-6">Skills</h2>
           <ul>
             <li><h4>Programming: </h4><p>Python, Vanilla JavaScript, NodeJs, C++, HTML, CSS</p>
             </li>
@@ -52,9 +61,9 @@
           </ul>
         </div>
         <div class=" info experience">
-          <h2 class="text-dark display-6">Experience</h2>
+          <h2 class="display-6">Experience</h2>
           <ul>
-            <li><h3><a class="text-decoration-none" href="https://zuri.team">Zuri Internship (Hngi8)</a>, Remote</h3>
+            <li><h3><a class="link text-decoration-none" href="https://zuri.team">Zuri Internship (Hngi8)</a>, Remote</h3>
               <h4>August 2021 - Present</h4>
               <ul>
                 <li>Build your portfolio of projects by taking part in individual and group project works.</li>
@@ -84,9 +93,9 @@
           </ul>
         </div>
         <div class=" info dev">
-          <h2 class="text-dark display-6">Personal Development</h2>
+          <h2 class="display-6">Personal Development</h2>
           <ul>
-            <li><h3><a class="text-decoration-none" href="https://zuri.team">Zuri Training</a>, Remote</h3>
+            <li><h3><a class="link text-decoration-none" href="https://zuri.team">Zuri Training</a>, Remote</h3>
               <h4>March 2021 - July 2021</h4>
               <p>An intensive remote training to learn hoe to use backend tool - NodeJs - in building websites</p>
             </li>
@@ -100,8 +109,8 @@
           </ul>
         </div>
       </div>
-      <div class="contact pt-3">
-          <h3 class="text-dark display-6"><i class="fas fa-coffee"></i><span>Contact Me</span></h3>
+      <div class="info contact pt-3">
+          <h2 class="display-6">Contact Me</h2>
           <form action="/send" method="POST" >
             <p class="form-group">
               <label for="name">Name</label>
